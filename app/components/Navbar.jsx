@@ -1,4 +1,4 @@
-"use client"
+
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
@@ -66,7 +66,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
                 <Image src={isDarkMode ? assets.close_white : assets.close_black} alt='' className='w-5 cursor-pointer' />
             </div>
 
-            <li><a className='font-Ovo' onClick={closeMenu} href="#top">Home</a></li>
+            <li><a className='font-ovo' onClick={closeMenu} href="#top">Home</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#about">About me</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#services">Services</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#work">My Work</a></li>
