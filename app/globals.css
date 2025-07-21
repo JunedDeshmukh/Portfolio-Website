@@ -1,6 +1,8 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-*{
+* {
   font-family: Outfit;
 }
 
@@ -8,3 +10,15 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+
+/* .dark-enabled {
+  background-color: #11011f;
+  color: white;
+} */
+
+/* :root {
+  
+  --lightHover: #fcf4ff;
+  --darkHover: #2a004a;
+  --darkTheme: #11001F;
+} */

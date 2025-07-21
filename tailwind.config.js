@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    './app/**/*.{js,ts,jsx,tsx,mdx}', // Adjust paths based on your project structure
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    // Add any other paths where you use Tailwind classes
   ],
   theme: {
     extend: {
+      // Your custom colors, fonts, spacing, etc. here for v3.x
       colors: {
         lightHover: '#fcf4ff',
         darkHover: '#2a004a',
@@ -23,6 +25,7 @@ export default {
       gridTemplateColumns: {
         'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
       }
+      // ... other extensions
     },
   },
   darkMode: 'selector',
