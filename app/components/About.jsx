@@ -52,7 +52,9 @@ const About = ({isDarkMode}) => {
                     {infoList.map(({icon, iconDark, title, description}, index)=>(
                         <motion.li 
                         whileHover={{scale: 1.05}} 
-                        className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'
+                        className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer
+                         hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black
+                         dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'
                          key={index}>
                             <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-3'/>
                             <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>{title}</h3>
@@ -65,7 +67,7 @@ const About = ({isDarkMode}) => {
                 initial={{ y: 20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ delay: 1.3, duration: 0.5 }}
-                className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Technologies I Know</motion.h4>
+                className='my-6 text-gray-700 font-Ovo dark:text-white/80'></motion.h4>
 
                 <motion.ul
                 initial={{ opacity: 0 }}
@@ -75,7 +77,8 @@ const About = ({isDarkMode}) => {
                     {toolsData.map((tool, index)=>(
                         <motion.li 
                          whileHover={{ scale: 1.1 }}
-                        className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
+                        className='flex items-center justify-center w-12 sm:w-14 aspect-square border
+                         border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
                          key={index}>
                             <Image src={tool} alt='Tool' className='w-5 sm:w-7'/>
                         </motion.li>

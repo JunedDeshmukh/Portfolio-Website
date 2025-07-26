@@ -88,28 +88,28 @@ export const workData = [
         bgImage: '/work-2.png',
     },
     {
-        title: 'Wanderlust',
-        description: 'Inspired by AirBnb',
+        title: 'Spotify UI',
+        description: 'Functional music player',
         bgImage: '/work-3.png',
     },
     {
-        title: 'JobHunt',
-        description: 'Inspired by Naukri.com',
+        title: 'Wanderlust',
+        description: 'Inspired by AirBnb',
         bgImage: '/work-4.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming, and maintaining websites and web applications. It involves frontend development for user interfaces, backend development for server-side logic, and often includes database integration and deployment.', link: '' },
+    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software applications specifically designed to run on mobile devices such as smartphones and tablets. It includes building native, hybrid, or web-based apps, focusing on performance, user experience, and device compatibility.', link: '' },
     // { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     // { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.E in Mechanical' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, TypeScript' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Frontend', description: 'React.js, Next.js, WebSockets, WebRTC, TailwindCSS' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Backend', description: 'Node.js, Express.js, Docker' }
 ];
 
 export const toolsData = [
