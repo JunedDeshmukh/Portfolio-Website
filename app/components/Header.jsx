@@ -45,7 +45,8 @@ const Header = () => {
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.6, delay: 1}}
             href="#contact"
-            className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
+            className='px-10 py-3 border border-white rounded-full bg-black text-white 
+            flex items-center gap-2 dark:bg-transparent'
             >contact me <Image src={assets.right_arrow_white} alt='' className='w-4'/></motion.a>
 
             <motion.a 
@@ -53,7 +54,8 @@ const Header = () => {
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.6, delay: 1}}
             href="/sample-resume.pdf" download 
-            className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
+            className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white
+             dark:text-black '>
                 my resume <Image src={assets.download_icon} alt='' className='w-4'/></motion.a>
         </div>
     </div>

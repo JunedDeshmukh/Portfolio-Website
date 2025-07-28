@@ -81,22 +81,51 @@ export const workData = [
         title: 'CodeSandbox',
         description: 'Fully functional clone',
         bgImage: '/work-1.png',
+        github: "https://github.com/JunedDeshmukh/CodeSandbox_clone"
     },
     {
         title: 'Video Calling App   ',
         description: 'Using webRTC',
         bgImage: '/work-2.png',
+        github: "https://github.com/JunedDeshmukh/Video_calling_app"
     },
     {
         title: 'Spotify UI',
         description: 'Functional music player',
         bgImage: '/work-3.png',
+        github: "https://github.com/JunedDeshmukh/Spotify_ui"
     },
     {
         title: 'Wanderlust',
         description: 'Inspired by AirBnb',
         bgImage: '/work-4.png',
+        github: "https://github.com/JunedDeshmukh/wanderlust"
     },
+        {
+        title: 'Hangman',
+        description: 'Click to Play Framework Done',
+        bgImage: '/work-5.png',
+        github: "http://hangman-game-three-sable.vercel.app"
+    },
+    {
+        title: 'Tic-Tac-Toe',
+        description: 'Click to Play',
+        bgImage: '/work-6.png',
+        github: "https://tic-tac-toe-one-drab-63.vercel.app"
+    },
+    {
+        title: 'Simon Says Game',
+        description: 'Mimic the flashing pattern',
+        bgImage: '/work-7.png',
+        github: "https://simon-says-game-gilt-beta.vercel.app"
+    },
+    {
+        title: 'Snake Game',
+        description: 'Feed the Hungry Snake',
+        bgImage: '/work-8.png',
+        github: "https://snake-game-xi-blue.vercel.app"
+    },
+
 ]
 
 export const serviceData = [
